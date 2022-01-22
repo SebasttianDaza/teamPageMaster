@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    --var-background: #fff;
+    --var-color-text: #000000;
+    --var-font-princ: 'PT Serif', serif;
+    --var-font-sec: 'Popins', sans-serif;
+}
+
+body {
+    background: var(--var-background);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles of Heading */
+
+#heading {
+    display: grid;
+    grid-template-columns:repeat(2, minmax(50%, 1fr));
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-family: var(--var-font-princ);
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: var(--var-color-text);
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items:flex-end;
+    grid-gap: 1.5rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.description h3 {
+    font-family: var(--var-font-sec);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: var(--var-color-text);
+}
+
+.description p {
+    font-family: var(--var-font-sec);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--var-color-text);
+}
+
+/* Styles de Main */
+
+#principal {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.primero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
