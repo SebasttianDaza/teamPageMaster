@@ -13,17 +13,6 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width: 800px) {
-    body {
-        max-width: 500px;
-    }
-}
-
-@media (max-width: 536px) {
-    body {
-        max-width: 450px;
-    }
-}
 
 /* Styles of Heading */
 
@@ -49,7 +38,7 @@ body {
     grid-template-columns: 1fr;
     align-items:flex-end;
     grid-gap: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 100%;
 }
 
@@ -99,6 +88,39 @@ body {
     margin-top: 2rem;
 }
 
+@media (max-width: 838px) {
+    body {
+        max-width: 500px;
+    }
+
+    .black {
+        margin-top: 0;
+    }
+
+    footer {
+        height: 5rem;
+    }
+
+    .izquierda {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 536px) {
+    body {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 473px) {
+    body {
+        max-width: 400px;
+    }
+    .primero {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
 .image p {
     width: 100%;
     max-width: 120px;
@@ -128,6 +150,8 @@ body {
     height: 3rem;
     max-height: 100%;
 }
+
+/* Footer */
 
 footer {
     display: flex;
