@@ -18,8 +18,8 @@ body {
 
 #heading {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
-    width: 100%;
+    grid-template-columns:repeat(auto-fit, minmax(270px, 1fr));
+    max-width: 100%;
     height: auto;
     align-items: center;
 }
@@ -39,7 +39,7 @@ body {
     align-items:flex-end;
     grid-gap: 1.5rem;
     margin-top: 4rem;
-    width: 100%;
+    max-width: 100%;
 }
 
 .description h3 {
@@ -50,6 +50,7 @@ body {
     line-height: 27px;
     text-transform: uppercase;
     color: var(--var-color-text);
+    
 }
 
 .description p {
@@ -71,7 +72,7 @@ body {
 
 .primero {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-gap: 3rem;
     max-width: 100%;
     height: auto;
@@ -106,18 +107,19 @@ body {
     }
 }
 
-@media (max-width: 536px) {
-    body {
-        max-width: 450px;
-    }
-}
-
-@media (max-width: 473px) {
+@media (max-width: 540px){
     body {
         max-width: 400px;
     }
+}
+
+@media ( max-width: 400px) {
+    body {
+        max-width: 300px;
+    }
+
     .primero {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
 }
 

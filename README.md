@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{My Team Page Master}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://{[your-demo-link.your-domain](https://team-page-master.vercel.app/)}">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{[your-url-to-the-solution](https://github.com/SebasttianDaza/teamPageMaster)}">
       Solution
     </a>
     <span> | </span>
@@ -26,32 +26,37 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://firebasestorage.googleapis.com/v0/b/emprendeyourlifestyle.appspot.com/o/pageTeam.png?alt=media&token=0c7eccd4-effa-418c-8b4b-9f024b240f5b)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+My project is maquetated with CSS, CSS Grid and HTML for than It a design responsive without some code.
 
 - Where can I see your demo?
+  The demo can to see in a hosting like [vercel](https://team-page-master.vercel.app/).
 - What was your experience?
+  My experience was so well, I was able to see the result of the challenge.
 - What have you learned/improved?
+  I've learned more about CSS Grid and some funcionalities than I didn't 
+  know before.
 - Your wisdom? :)
+  It's better take CSS Grid for responsive than much media queries.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [CSS]()
+- [HTML]()
 
 ## Features
 
@@ -70,6 +75,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [emprendeyourlifestyle](https://{[your-web-site-link](http://emprendeyourlifestyle.com/)})
+- GitHub [@sebasttiandaza](https://{github.com/sebasttiandaza})
+- Twitter [@SebasttianDaza](https://{twitter.com/SebasttianDaza})
