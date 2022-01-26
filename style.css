@@ -80,9 +80,10 @@ body {
 
 .image {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 20%;
+    grid-gap: .5rem;
     height: 100%;
-    width: 100%;
+    max-width: 100%;
 }
 
 .black {
@@ -124,9 +125,6 @@ body {
 }
 
 .image p {
-    width: 100%;
-    max-width: 120px;
-    max-height: 15%;
     font-family: var(--var-font-princ);
     font-style: normal;
     font-weight: normal;
@@ -134,7 +132,8 @@ body {
     line-height: 16px;
     text-transform: uppercase;
     color: var(--var-color-text);
-    transform: rotate(90deg);
+    width: 20px;
+    writing-mode: vertical-lr;
 }
 
 
